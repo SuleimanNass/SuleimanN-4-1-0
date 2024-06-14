@@ -1,0 +1,57 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "vulnerabilityAssessments_Default_storageContainerPath": {
+            "value": "Storage Path"
+        },
+        "servers_spoke1_sql_server_name": {
+            "value": "SQL-Server"
+        },
+        "virtualMachines_Hub_NVA_name": {
+            "value": "NVA"
+        },
+        "virtualNetworks_Hub_Vnetz_name": {
+            "value": "Hub-V-net"
+        },
+        "routeTables_Spoke_1_Routes_name": {
+            "value": "Spoke1 Routes"
+        },
+        "routeTables_Spoke_2_Routes_name": {
+            "value": "Spoke 2 Routes"
+        },
+        "networkInterfaces_hub_nva864_name": {
+            "value": "Network Interface-Hub"
+        },
+        "networkSecurityGroups_Hub_NSG_name": {
+            "value": "NSG-Hub"
+        },
+        "publicIPAddresses_Bastion_PIP_name": {
+            "value": "Bastion-PIP"
+        },
+        "virtualNetworks_Spoke_1_Vnetz_name": {
+            "value": "Spoke 2 V-net"
+        },
+        "virtualNetworks_Spoke_2_Vnetz_name": {
+            "value": "Spoke 2 V-net"
+        },
+        "bastionHosts_Hub_Vnetz_Bastion_name": {
+            "value": "Bastion-Hub-net"
+        },
+        "virtualMachineScaleSets_Spoke2_SS_VMs_name": {
+            "value": "SS-VM-0"
+        },
+        "autoscalesettings_Spoke2_SS_VMsautoscale_name": {
+            "value": "SS-VM-1"
+        },
+        "networkSecurityGroups_basicNsgSpoke_2_Vnetz_nic01_name": {
+            "value": "NSG-Spoke-2"
+        },
+        "disks_Spoke2_SS_VMs_Spoke2_SS_VMs_0_OsDisk_1_a47244eccbb94314904c4f98944247f6_externalid": {
+            "value": "Disk-VM-0-Spoke-2"
+        },
+        "disks_Spoke2_SS_VMs_Spoke2_SS_VMs_1_OsDisk_1_fbfe1554ce7b4ea5bd312feeca624806_externalid": {
+            "value": "Disk-VM-1-Spoke-2"
+        }
+    }
+}
